@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Doctors - MedCare Clinic</title>
+  <meta name="description" content="Meet the experienced, compassionate healthcare professionals at MedCare Clinic dedicated to your wellbeing.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Skip to Content -->
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-info">
+        <span>&#9742; (555) 123-4567</span>
+        <span>&#9993; info@medcareclinic.com</span>
+      </div>
+      <div class="top-bar-hours">
+        <span>Mon - Fri: 8:00 AM - 6:00 PM | Sat: 9:00 AM - 2:00 PM</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">&#9829;</div>
+        Med<span>Care</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="doctors.html" class="active" aria-current="page">Doctors</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="nav-cta"><a href="appointment.html" class="btn btn-primary">Book Appointment</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+      <div class="container">
+        <h1>Our Doctors</h1>
+        <p>Experienced, compassionate healthcare professionals dedicated to your wellbeing</p>
+      </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section class="section">
+      <div class="container">
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="General Medicine">General Medicine</button>
+          <button class="filter-btn" data-filter="Pediatrics">Pediatrics</button>
+          <button class="filter-btn" data-filter="Dental">Dental</button>
+          <button class="filter-btn" data-filter="Specialist">Specialist</button>
+          <button class="filter-btn" data-filter="Mental Health">Mental Health</button>
+          <button class="filter-btn" data-filter="Physical Therapy">Physical Therapy</button>
+        </div>
+
+        <!-- Doctors Grid -->
+        <div class="doctors-grid">
+
+          <!-- Dr. Sarah Mitchell -->
+          <article class="doctor-card" data-specialty="General Medicine">
+            <img src="images/doctor1.jpg" alt="Dr. Sarah Mitchell" class="doctor-img" loading="lazy" width="400" height="280">
+            <div class="doctor-info">
+              <h3>Dr. Sarah Mitchell</h3>
+              <p class="doctor-specialty">General Medicine</p>
+              <p>Board-certified physician with 15 years of experience in family medicine.</p>
+              <div class="doctor-detail">
+                <span>Family Medicine</span>
+                <span>Preventive Care</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dr. James Rodriguez -->
+          <article class="doctor-card" data-specialty="Pediatrics">
+            <img src="images/doctor2.jpg" alt="Dr. James Rodriguez" class="doctor-img" loading="lazy" width="400" height="280">
+            <div class="doctor-info">
+              <h3>Dr. James Rodriguez</h3>
+              <p class="doctor-specialty">Pediatrics</p>
+              <p>Dedicated pediatrician passionate about child health and development.</p>
+              <div class="doctor-detail">
+                <span>Child Health</span>
+                <span>Vaccinations</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dr. Emily Chen -->
+          <article class="doctor-card" data-specialty="Dental">
+            <img src="images/doctor3.jpg" alt="Dr. Emily Chen" class="doctor-img" loading="lazy" width="400" height="280">
+            <div class="doctor-info">
+              <h3>Dr. Emily Chen</h3>
+              <p class="doctor-specialty">Dental Care</p>
+              <p>Expert dentist providing gentle, comprehensive dental care for all ages.</p>
+              <div class="doctor-detail">
+                <span>Cosmetic Dentistry</span>
+                <span>Orthodontics</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dr. Michael Thompson -->
+          <article class="doctor-card" data-specialty="Specialist">
+            <img src="images/doctor4.jpg" alt="Dr. Michael Thompson" class="doctor-img" loading="lazy" width="400" height="280">
+            <div class="doctor-info">
+              <h3>Dr. Michael Thompson</h3>
+              <p class="doctor-specialty">Specialist</p>
+              <p>Renowned cardiologist with expertise in heart disease prevention.</p>
+              <div class="doctor-detail">
+                <span>Cardiology</span>
+                <span>Internal Medicine</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dr. Lisa Park -->
+          <article class="doctor-card" data-specialty="Mental Health">
+            <img src="images/doctor5.jpg" alt="Dr. Lisa Park" class="doctor-img" loading="lazy" width="400" height="280">
+            <div class="doctor-info">
+              <h3>Dr. Lisa Park</h3>
+              <p class="doctor-specialty">Mental Health</p>
+              <p>Compassionate psychiatrist focused on holistic mental wellness.</p>
+              <div class="doctor-detail">
+                <span>Counseling</span>
+                <span>Therapy</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dr. Robert Garcia -->
+          <article class="doctor-card" data-specialty="Physical Therapy">
+            <img src="images/doctor6.jpg" alt="Dr. Robert Garcia" class="doctor-img" loading="lazy" width="400" height="280">
+            <div class="doctor-info">
+              <h3>Dr. Robert Garcia</h3>
+              <p class="doctor-specialty">Physical Therapy</p>
+              <p>Expert physical therapist helping patients recover mobility and strength.</p>
+              <div class="doctor-detail">
+                <span>Rehabilitation</span>
+                <span>Sports Medicine</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to Schedule Your Visit?</h2>
+        <p>Our team of experienced doctors is here to provide the care you need. Book an appointment today.</p>
+        <div class="hero-buttons">
+          <a href="appointment.html" class="btn btn-white">Book Appointment</a>
+          <a href="contact.html" class="btn btn-outline" style="border-color: white; color: white;">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo" style="margin-bottom: 8px;">
+            <div class="logo-icon">&#9829;</div>
+            Med<span>Care</span>
+          </div>
+          <p>Providing compassionate, high-quality healthcare for our community. Your health is our priority.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="doctors.html">Doctors</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">General Medicine</a></li>
+            <li><a href="services.html">Pediatrics</a></li>
+            <li><a href="services.html">Dental Care</a></li>
+            <li><a href="services.html">Mental Health</a></li>
+            <li><a href="services.html">Physical Therapy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Info</h4>
+          <ul class="footer-links">
+            <li>123 Health Street</li>
+            <li>Medical City, MC 12345</li>
+            <li>(555) 123-4567</li>
+            <li>info@medcareclinic.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 MedCare Clinic. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
